@@ -50,6 +50,7 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 21x;
+    margin-top: 35px;
 }
 
 footer p {
@@ -62,6 +63,7 @@ footer p {
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 35px;
 }
 
 .overlay {
@@ -85,11 +87,28 @@ footer p {
 .center-image {
     filter: none;
     width: 275px;
-    margin-right: -14px; 
+    margin-right: -14px;
 }
 
 .about-text {
     font-size: 150px;
     color: #CDB31C;
     margin-left: -15px;
+}
+
+.box {
+    background-color: #C98A36;
+    border-radius: 30px;
+    padding: 70px;
+    max-width: 830px;
+    margin: 0 auto;
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .box {
+        padding: 17px;
+    }
 }
