@@ -147,3 +147,14 @@ footer p {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+ul, li {
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+h5 {
+    text-align: center;
+}
+
