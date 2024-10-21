@@ -97,6 +97,8 @@ footer p {
 }
 
 .box {
+    display: flex;
+    flex-direction: row;
     background-color: #C98A36;
     border-radius: 30px;
     padding: 70px;
@@ -107,8 +109,41 @@ footer p {
     text-align: justify;
 }
 
+.box img {
+    width: 200px;    
+    height: 200px;
+    border-radius: 43px;
+    object-fit: cover;
+    margin-left: 30px;
+    box-shadow: #000 2px 2px 3px;
+}
+
 @media (max-width: 768px) {
     .box {
-        padding: 17px;
+        flex-direction: column;
     }
+
+    .box img {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+}
+
+.gyros-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.pesto-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
